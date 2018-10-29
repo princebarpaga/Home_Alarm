@@ -1,2 +1,2 @@
-# Home_Alarm
-EECS 2031 lab05
+# HouseAlarm
+Sample code for lab05
