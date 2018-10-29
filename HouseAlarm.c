@@ -142,7 +142,7 @@ int alarm_Sounding(int currentState)
  {
 	int i;
 	printf(" alarm sounding \n");
-	ifttt("https://maker.ifttt.com/trigger/alarm_triggered/with/key/cEsyCCLR4jzCs8_UtE3zy3", "Lab05", "House-Alarm", "detected");
+	ifttt("https://maker.ifttt.com/trigger/alarm_triggered/with/key/dE5cCL2u7utK9J1qEjHStA", "Lab05", "House-Alarm", "detected");
 	if(currentState == ALARM_SOUNDING)
 	{
            /*while(1)*/
@@ -151,7 +151,7 @@ int alarm_Sounding(int currentState)
 	   digitalWrite(4, HIGH); /*Buzzer is set to high*/
            digitalWrite(1, HIGH); /*First led turned off*/
            digitalWrite(2, HIGH); delay(2000); /*Second led turned on*/
-	    digitalWrite(1, LOW); 
+	   digitalWrite(1, LOW); 
 	   digitalWrite(2, LOW); 
 	   digitalWrite(4, LOW); delay(2000);
 	   printf(" alarm \n");
